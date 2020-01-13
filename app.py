@@ -23,9 +23,9 @@ class myHandler(BaseHTTPRequestHandler):
 	
 	#Handler for the GET requests
 	def do_GET(self):
-		path=self.path
+		
 		print(self.path.split('/')[-1])
-		print('_____________________holiiiiiii____________')
+		nombre=self.path.split('/')[-1])
 		datos=''
 		if self.path=="/":  #127.0.0.1:5000/
 			self.path="index.html" #127.0.0.1:5000/index.html
