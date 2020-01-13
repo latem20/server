@@ -25,7 +25,7 @@ class myHandler(BaseHTTPRequestHandler):
 	def do_GET(self):
 		print(self.path.split('/')[-1])
 		nombre=self.path.split('/')[-1]
-		print('123dxrcfvgh12321')
+		print('-------------------123dxrcfvgh12321----------------------')
 		datos=''
 		if self.path=="/":  #127.0.0.1:5000/
 			nombre="index.html" #127.0.0.1:5000/index.html
