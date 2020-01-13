@@ -34,7 +34,7 @@ class myHandler(BaseHTTPRequestHandler):
 			#set the right mime type
 
 			sendReply = False
-			if self.path.endswith(".html"):
+			if nombre.endswith(".html"):
 				mimetype='text/html'
 				f=open(nombre)
 				datos=f.read()
