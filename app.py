@@ -24,11 +24,12 @@ class myHandler(BaseHTTPRequestHandler):
 	#Handler for the GET requests
 	def do_GET(self):
 		
-		print(self.path.split('/')[-1])
+		print(self.path.split('/')[-1]))
 		nombre=self.path.split('/')[-1])
+		print('123dxrcfvgh12321')
 		datos=''
 		if self.path=="/":  #127.0.0.1:5000/
-			self.path="index.html" #127.0.0.1:5000/index.html
+			nombre="index.html" #127.0.0.1:5000/index.html
 		try:
 			#Check the file extension required and
 			#set the right mime type
@@ -36,7 +37,7 @@ class myHandler(BaseHTTPRequestHandler):
 			sendReply = False
 			if self.path.endswith(".html"):
 				mimetype='text/html'
-				f=open(self.path)
+				f=open(nombre)
 				datos=f.read()
 				f.close()
 				sendReply = True
