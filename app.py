@@ -23,8 +23,7 @@ class myHandler(BaseHTTPRequestHandler):
 	
 	#Handler for the GET requests
 	def do_GET(self):
-		
-		print(self.path.split('/')[-1]))
+		print(self.path.split('/')[-1])
 		nombre=self.path.split('/')[-1])
 		print('123dxrcfvgh12321')
 		datos=''
