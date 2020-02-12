@@ -15,8 +15,7 @@ import os
 port = int(os.environ.get("PORT", 5000))	
 PORT_NUMBER = port
 
-#importa el script de para mqtt
-import mqtt
+
 
 #This class will handles any incoming request from
 #the browser 
