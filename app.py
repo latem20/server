@@ -1,5 +1,4 @@
 #!/usr/bin/python
-import mqtt
 
 try:
 	from BaseHTTPServer import BaseHTTPRequestHandler,HTTPServer
