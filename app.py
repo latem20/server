@@ -1,4 +1,5 @@
 #!/usr/bin/python
+import mqtt
 
 try:
 	from BaseHTTPServer import BaseHTTPRequestHandler,HTTPServer
@@ -15,7 +16,7 @@ import os
 port = int(os.environ.get("PORT", 5000))	
 PORT_NUMBER = port
 
-import mqtt
+
 
 #This class will handles any incoming request from
 #the browser 
